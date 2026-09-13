@@ -49,10 +49,6 @@ public class DropDownHandle {
         Thread.sleep(2000);
 
     }
-
-
-
-
     @AfterSuite
     public void stop(){
         page.close();
